@@ -1,0 +1,10 @@
+id: ClassLibrary1
+language: CSharp
+name:
+  Default: ClassLibrary1
+qualifiedName:
+  Default: ClassLibrary1
+type: Assembly
+modifiers: {}
+items: []
+references: {}
