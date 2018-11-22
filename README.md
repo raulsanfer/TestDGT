@@ -11,7 +11,7 @@ Se incluye tambien el ejecutable de Consola para probar la aplicación ubicado e
 La libreria de Clases implementa el patrón Repository de forma estandar, que permite centralizar y abstraer la capa de datos como ejemplo de 
 una implementación real.
 
-# FALTAS 
+# Faltas 
  
 - Se excluye alguno de los requisitos funcionales por falta de practica concretamente en el uso de Linq, al haber implementado el objeto data como una coleccion
 Concretamente y a modo de muestra, el caso de la consulta de los 5 tipos de infraccion más habituales, podría realizarlo en TSQL mediante la siguiente consulta
