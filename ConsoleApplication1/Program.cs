@@ -434,21 +434,20 @@ namespace TestDGT
 
                             var multas =
 	                                    from I in listaInfracciones
-	                                    group I by I.tipo.descripcion into g	
-	                                    select new { g.Key, puntos = g.Sum(x=>x.tipo.puntos_descontar) };
+	                                    group I by I.tipo.descripcion into g
+                                        select new { g.Key, puntos = g.Sum(x => x.tipo.puntos_descontar) };
 
                             SalidaConsola(string.Format("5 TIPOS DE INFRACCIÓN MAS COMUNES"));
                             foreach (dynamic item in multas)
-                            {
-                                TipoInfraccion TI = dbTipoInfraccion.ObtenerPorId(item.tipo.id);
-                                SalidaConsola(string.Format("{0} - {1}", TI.descripcion, item.puntos.ToString()));
+                            {                                
+                                SalidaConsola(string.Format("{0} - {1}", item.Key, item.puntos.ToString()));
                             }
                             SalidaConsola("-----------------------");
                             //SalidaConsola(string.Format("Puntos restantes:{0}", C.numero_puntos.ToString()));
                         }
                         else
                         {
-                            SalidaConsola("El conductor no tiene infracciones");
+                            SalidaConsola("No se han encontrado infracciones");
                             break;
                         }
                     }
