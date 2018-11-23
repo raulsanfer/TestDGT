@@ -13,13 +13,14 @@ una implementación real.
 
 # Faltas 
  
-- Se excluye alguno de los requisitos funcionales por falta de practica concretamente en el uso de Linq, al haber implementado el objeto data como una coleccion
+<i>- Se excluye alguno de los requisitos funcionales por falta de practica concretamente en el uso de Linq, al haber implementado el objeto data como una coleccion
 Concretamente y a modo de muestra, el caso de la consulta de los 5 tipos de infraccion más habituales, podría realizarlo en TSQL mediante la siguiente consulta
 
 "select top(5) tipo,sum(puntos) from tipo_infraccion ti 
 inner join infracciones i on i.id_tipo=ti.id
 group by tipo
-order by sum(puntos) desc" 
+order by sum(puntos) desc" </i>
+- revisado 23/11/2018 la consulta se obtiene ya por tipos de infraccion
 
 - Tampoco se detalla todo lo que debería el diagrama de clases (que se ha generado a partir de Visual Studio...deformación profesional) 
 - Las condiciones de los requisitos funcionales, se controlan desde código, como el control del numero de instancias (maximo 10) de Vehiculo a Conductor
