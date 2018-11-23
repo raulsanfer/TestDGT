@@ -9,68 +9,6 @@
             Clase de repositorio para las infracciones
             </summary>
         </member>
-        <member name="M:ClassLibrary1.DAL.DataInfraccionRepositorio.ObtenerPorDNI(System.String)">
-            <summary>
-            Metodo personalizado que obtiene las infracciones por dni de conductor
-            </summary>
-            <param name="pDni"></param>
-            <returns></returns>
-        </member>
-        <member name="T:ClassLibrary1.DAL.DataTipoInfraccionRepositorio">
-            <summary>
-            Clase de repositorio para el tipo de infraccion
-            </summary>
-        </member>
-        <member name="M:ClassLibrary1.DAL.DataTipoInfraccionRepositorio.ObtenerPorId(System.Int16)">
-            <summary>
-            metodo personalizado para obtener un tipo de infraccion por su ID
-            </summary>
-            <param name="pId"></param>
-            <returns></returns>
-        </member>
-        <member name="T:ClassLibrary1.DAL.DataVehiculoRepositorio">
-            <summary>
-            Clase de repositorio para tratar los vehiculos
-            </summary>
-        </member>
-        <member name="M:ClassLibrary1.DAL.DataVehiculoRepositorio.ObtenerPorMatricula(System.String)">
-            <summary>
-            Metodo personalizado para obtener un vehiculo por su matricula
-            </summary>
-            <param name="matricula"></param>
-            <returns></returns>
-        </member>
-        <member name="T:ClassLibrary1.DAL.Data">
-            <summary>
-            Clase de servicio que representa el almacen de datos 
-            En un entorno "real" esto sería por ejemplo el Datacontext o la base de datos 
-            </summary>
-        </member>
-        <member name="P:ClassLibrary1.DAL.Data.Conductores">
-            <summary>
-            Representa la tabla conductores
-            </summary>
-        </member>
-        <member name="P:ClassLibrary1.DAL.Data.Vehiculos">
-            <summary>
-            Representa la tabla vehiculos
-            </summary>
-        </member>
-        <member name="P:ClassLibrary1.DAL.Data.TiposInfraccion">
-            <summary>
-            Representa la tabla tipos infraccion
-            </summary>
-        </member>
-        <member name="P:ClassLibrary1.DAL.Data.Infracciones">
-            <summary>
-            Representa la tabla infracciones
-            </summary>
-        </member>
-        <member name="T:ClassLibrary1.DAL.DataConductorRepositorio">
-            <summary>
-            Clase de repositorio para el Conductor
-            </summary>
-        </member>
         <member name="T:ClassLibrary1.DAL.IRepositorio`1">
             <summary>
             Interfaz Repositorio, base para centralizar los metodos de acceso a datos a implementar
@@ -104,10 +42,61 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:ClassLibrary1.DAL.DataInfraccionRepositorio.ObtenerPorDNI(System.String)">
+            <summary>
+            Metodo personalizado que obtiene las infracciones por dni de conductor
+            </summary>
+            <param name="pDni"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibrary1.DAL.DataTipoInfraccionRepositorio">
+            <summary>
+            Clase de repositorio para el tipo de infraccion
+            </summary>
+        </member>
+        <member name="M:ClassLibrary1.DAL.DataTipoInfraccionRepositorio.ObtenerPorId(System.Int16)">
+            <summary>
+            metodo personalizado para obtener un tipo de infraccion por su ID
+            </summary>
+            <param name="pId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibrary1.DAL.DataVehiculoRepositorio">
+            <summary>
+            Clase de repositorio para tratar los vehiculos
+            </summary>
+        </member>
+        <member name="M:ClassLibrary1.DAL.DataVehiculoRepositorio.ObtenerPorMatricula(System.String)">
+            <summary>
+            Metodo personalizado para obtener un vehiculo por su matricula
+            </summary>
+            <param name="matricula"></param>
+            <returns></returns>
+        </member>
         <member name="T:ClassLibrary1.Modelos.Conductor">
             <summary>
             Implementacion de Persona, para concretar las caracteristicas del Conductor
             como el número de puntos de trafico
+            </summary>
+        </member>
+        <member name="T:ClassLibrary1.Modelos.Interfaces.IPersona">
+            <summary>
+            Interface para generalizar el sujeto
+            </summary>
+        </member>
+        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.DNI">
+            <summary>
+            Propiedad del interfaz de Persona
+            </summary>
+        </member>
+        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.nombre">
+            <summary>
+            Propiedad nombre
+            </summary>
+        </member>
+        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.apellidos">
+            <summary>
+            Propiedad Apellidos
             </summary>
         </member>
         <member name="P:ClassLibrary1.Modelos.Conductor.DNI">
@@ -140,24 +129,35 @@
             Infracciones asociadas al conductor
             </summary>
         </member>
-        <member name="T:ClassLibrary1.Modelos.Interfaces.IPersona">
+        <member name="T:ClassLibrary1.DAL.Data">
             <summary>
-            Interface para generalizar el sujeto
+            Clase de servicio que representa el almacen de datos 
+            En un entorno "real" esto sería por ejemplo el Datacontext o la base de datos 
             </summary>
         </member>
-        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.DNI">
+        <member name="P:ClassLibrary1.DAL.Data.Conductores">
             <summary>
-            Propiedad del interfaz de Persona
+            Representa la tabla conductores
             </summary>
         </member>
-        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.nombre">
+        <member name="P:ClassLibrary1.DAL.Data.Vehiculos">
             <summary>
-            Propiedad nombre
+            Representa la tabla vehiculos
             </summary>
         </member>
-        <member name="P:ClassLibrary1.Modelos.Interfaces.IPersona.apellidos">
+        <member name="P:ClassLibrary1.DAL.Data.TiposInfraccion">
             <summary>
-            Propiedad Apellidos
+            Representa la tabla tipos infraccion
+            </summary>
+        </member>
+        <member name="P:ClassLibrary1.DAL.Data.Infracciones">
+            <summary>
+            Representa la tabla infracciones
+            </summary>
+        </member>
+        <member name="T:ClassLibrary1.DAL.DataConductorRepositorio">
+            <summary>
+            Clase de repositorio para el Conductor
             </summary>
         </member>
         <member name="T:ClassLibrary1.Modelos.Infraccion">

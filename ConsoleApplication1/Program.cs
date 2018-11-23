@@ -31,6 +31,7 @@ namespace TestDGT
             SalidaConsola("30. Agregar Tipo Infracción ");
             SalidaConsola("40. Agregar Infracción");
             SalidaConsola("50. Consultar historial infracciones por Conductor");
+            SalidaConsola("51. Consultar 5 tipos infracción mas comunes");
             SalidaConsola(" ");
             //SalidaConsola("50. Agregar Infracción a Vehiculo (hh:mm;dd/mm/yyyy;matricula)");
         }
@@ -413,6 +414,42 @@ namespace TestDGT
                         else
                         {
                             SalidaConsola(Constantes._entradaIncorrecta);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        SalidaConsola(Constantes._ocurrioError);
+                    }
+                    break;
+                case "51":
+                    //queremos consultar los 5 tipos de infraccion mas comunes
+                    try
+                    {                        
+                        //recogemos informacion de las infracciones del mismo
+                        DataInfraccionRepositorio dbInfraccion = new DataInfraccionRepositorio();
+                        List<Infraccion> listaInfracciones = (List<Infraccion>)dbInfraccion.ObtenerTodos();
+                        if (listaInfracciones.Count > 0)
+                        {
+                            DataTipoInfraccionRepositorio dbTipoInfraccion = new DataTipoInfraccionRepositorio();
+
+                            var multas =
+	                                    from I in listaInfracciones
+	                                    group I by I.tipo.descripcion into g	
+	                                    select new { g.Key, puntos = g.Sum(x=>x.tipo.puntos_descontar) };
+
+                            SalidaConsola(string.Format("5 TIPOS DE INFRACCIÓN MAS COMUNES"));
+                            foreach (dynamic item in multas)
+                            {
+                                TipoInfraccion TI = dbTipoInfraccion.ObtenerPorId(item.tipo.id);
+                                SalidaConsola(string.Format("{0} - {1}", TI.descripcion, item.puntos.ToString()));
+                            }
+                            SalidaConsola("-----------------------");
+                            //SalidaConsola(string.Format("Puntos restantes:{0}", C.numero_puntos.ToString()));
+                        }
+                        else
+                        {
+                            SalidaConsola("El conductor no tiene infracciones");
+                            break;
                         }
                     }
                     catch (Exception ex)
