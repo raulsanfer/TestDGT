@@ -12,6 +12,5 @@ C:\Users\raulh\Documents\Visual Studio 2012\Projects\TestDGT\src\ClassLibrary1\b
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.XML
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.dll
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
