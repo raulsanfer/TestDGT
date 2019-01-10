@@ -1,6 +1,0 @@
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.XML
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.dll
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\obj\Debug\APITestDGT.csprojResolveAssemblyReference.cache
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\obj\Debug\ClassLibrary1.dll
-H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

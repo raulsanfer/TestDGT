@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestDGT", "ClassLibrary1\APITestDGT.csproj", "{08B94ACE-B073-4C75-B1D6-288810A7EB3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestDGT", "APITestDGT\APITestDGT.csproj", "{08B94ACE-B073-4C75-B1D6-288810A7EB3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDGT", "ConsoleApplication1\TestDGT.csproj", "{6C3BED78-6AC7-43CE-B41D-6B9783B5EA08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDGT", "TestDGT\TestDGT.csproj", "{6C3BED78-6AC7-43CE-B41D-6B9783B5EA08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

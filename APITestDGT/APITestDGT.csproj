@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C3BED78-6AC7-43CE-B41D-6B9783B5EA08}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{08B94ACE-B073-4C75-B1D6-288810A7EB3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>APITestDGT</RootNamespace>
+    <AssemblyName>APITestDGT</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -21,9 +22,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\APITestDGT.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,17 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DAL\DataInfraccionRepositorio.cs" />
+    <Compile Include="DAL\DataTipoInfraccionRepositorio.cs" />
+    <Compile Include="DAL\DataVehiculoRepositorio.cs" />
+    <Compile Include="Modelos\Conductor.cs" />
+    <Compile Include="DAL\Data.cs" />
+    <Compile Include="DAL\DataConductorRepositorio.cs" />
+    <Compile Include="DAL\IRepository.cs" />
+    <Compile Include="Modelos\Interfaces\IPersona.cs" />
+    <Compile Include="Modelos\Infraccion.cs" />
+    <Compile Include="Modelos\TipoInfraccion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\APITestDGT.csproj">
-      <Project>{08b94ace-b073-4c75-b1d6-288810a7eb3e}</Project>
-      <Name>APITestDGT</Name>
-    </ProjectReference>
+    <Compile Include="Modelos\Vehiculo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
