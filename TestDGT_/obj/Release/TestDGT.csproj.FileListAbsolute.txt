@@ -1,0 +1,8 @@
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\bin\Release\TestDGT.exe.config
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\bin\Release\TestDGT.exe
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\bin\Release\TestDGT.pdb
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\bin\Release\APITestDGT.dll
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\bin\Release\APITestDGT.pdb
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\obj\Release\TestDGT.csprojResolveAssemblyReference.cache
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\obj\Release\TestDGT.exe
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\obj\Release\TestDGT.pdb
