@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ClassLibrary1.Modelos.Interfaces
+namespace APITestDGT.Modelos.Interfaces
 {
     /// <summary>
     /// Interface para generalizar el sujeto

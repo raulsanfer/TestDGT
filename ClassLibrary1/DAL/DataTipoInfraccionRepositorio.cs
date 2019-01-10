@@ -4,8 +4,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1.Modelos;
-namespace ClassLibrary1.DAL
+using APITestDGT.Modelos;
+namespace APITestDGT.DAL
 {
     /// <summary>
     /// Clase de repositorio para el tipo de infraccion

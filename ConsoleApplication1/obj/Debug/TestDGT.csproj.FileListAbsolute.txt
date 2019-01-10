@@ -24,3 +24,12 @@ H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ConsoleApplication1\bin\Debug\Class
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ConsoleApplication1\bin\Debug\ClassLibrary1.xml
 H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\TestDGT\ConsoleApplication1\obj\Debug\TestDGT.csprojResolveAssemblyReference.cache
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ClassLibrary1.dll
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\bin\Debug\ClassLibrary1.xml
+H:\TECNOLOGIA\PROYECTOS_MIOS\TestDGT\ConsoleApplication1\obj\Debug\TestDGT.csprojResolveAssemblyReference.cache

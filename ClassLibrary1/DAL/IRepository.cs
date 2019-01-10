@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ClassLibrary1.DAL
+namespace APITestDGT.DAL
 {
     /// <summary>
     /// Interfaz Repositorio, base para centralizar los metodos de acceso a datos a implementar

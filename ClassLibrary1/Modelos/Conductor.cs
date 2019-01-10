@@ -1,7 +1,7 @@
-﻿using ClassLibrary1.Modelos.Interfaces;
+﻿using APITestDGT.Modelos.Interfaces;
 using System;
 using System.Collections.Generic;
-namespace ClassLibrary1.Modelos
+namespace APITestDGT.Modelos
 {
     /// <summary>
     /// Implementacion de Persona, para concretar las caracteristicas del Conductor

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1;
-using ClassLibrary1.DAL;
-using ClassLibrary1.Modelos;
+using APITestDGT;
+using APITestDGT.DAL;
+using APITestDGT.Modelos;
 namespace TestDGT
 {
     class Program
@@ -473,9 +473,7 @@ namespace TestDGT
             {
                 Console.WriteLine(message);
             }
-        }
-
-        
+        }      
         
 
         /// <summary>

@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\APITestDGT.csproj">
       <Project>{08b94ace-b073-4c75-b1d6-288810a7eb3e}</Project>
-      <Name>ClassLibrary1</Name>
+      <Name>APITestDGT</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

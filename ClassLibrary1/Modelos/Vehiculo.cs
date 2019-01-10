@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace ClassLibrary1.Modelos
+namespace APITestDGT.Modelos
 {
     /// <summary>
     /// CLase de entidad Vehiculos

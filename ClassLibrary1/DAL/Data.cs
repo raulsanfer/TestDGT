@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1.Modelos;
+using APITestDGT.Modelos;
 
-namespace ClassLibrary1.DAL
+namespace APITestDGT.DAL
 {
     /// <summary>
     /// Clase de servicio que representa el almacen de datos 
